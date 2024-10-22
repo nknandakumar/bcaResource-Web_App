@@ -7,6 +7,7 @@ import Papers from "./pages/Papers";
 import Notes from "./pages/Notes";
 import Footer from "./components/Footer";
 import Error from "./pages/Error";
+import Lab_manual from "./pages/Lab_manual";
 
 
 // import Skeliton from "./components/UI/Skeliton";
@@ -24,7 +25,7 @@ const App = () => {
 						<Route path="/subject" element={<Subject />} />
 						<Route path="/subject/papers" element={<Papers />} />
 						<Route path="/subject/notes" element={<Notes />} />
-						
+						<Route path="/lab_manuals/:sem_id" element={<Lab_manual/>} />
 						<Route path="*" element={<Error />} />
 					</Routes>
 				</div>

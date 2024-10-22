@@ -11,7 +11,7 @@ const Subject = () => {
 			</Link>
 			</div>
 			
-          <Link to={'/lab_manual/1'} >
+          <Link to={'/lab_manuals/1'} >
 		  <button className="btnHover px-4 py-2  text-lg text-white block  rounded-md bg-indigo-500" > Click here for Lab Manuals</button></Link>
               <h2 className=" py-4 text-2xl" >Subjects :</h2>
 			{/* SUBJECTS CARD SECTION */}

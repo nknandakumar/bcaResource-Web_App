@@ -81,7 +81,7 @@ const Lab_manual = () => {
 								<button
 									key={index}
 									onClick={() => handleSubjectClick(subject)}
-									className="btn btn-secondary "
+									className="px-4 py-2 rounded-md bg-indigo-300 font-bold my-2 shadow-md transform transition-transform hover:duration-300 hover:scale-105 hover:bg-indigo-400 "
 								>
 									{subject.name}
 								</button>

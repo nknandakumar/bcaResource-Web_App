@@ -11,7 +11,7 @@ const Home = () => {
 			<section className="p-6 lg:p-32">
 				<div className="flex flex-col lg:flex-row items-center justify-center lg:space-x-10">
 					<div className="text-center lg:text-left max-w-3xl">
-						<h1 className="text-4xl lg:text-6xl font-extrabold mb-4 font-[navFont] text-[#2D2F31]">
+						<h1 className="heroFont text-4xl lg:text-6xl font-extrabold mb-4 font-[navFont] text-[#2D2F31]">
 							Welcome to the Student Resource Hub!
 						</h1>
 						<p className="text-sm lg:text-lg text-gray-600 lg:pr-32">
